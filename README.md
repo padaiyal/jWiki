@@ -49,7 +49,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 The wiki contains the following Java related information:
-* [JVM Memory](docs/jvm/JVMMemory.md)
+* [JVM](docs/jvm)
+    * [Memory](docs/jvm/memory.md)
+    * [Garbage Collection](docs/jvm/garbage_collection.md)
 
 <!-- USAGE -->
 ## Usage
