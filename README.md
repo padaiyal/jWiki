@@ -52,6 +52,13 @@ The wiki contains the following Java related information:
 * [JVM](docs/jvm)
     * [Memory](docs/jvm/memory.md)
     * [Garbage Collection](docs/jvm/garbage_collection.md)
+* [Performance](docs/performance)
+    * [CPU Hogger Scenario](docs/performance/cpu_hogger/README.md)
+    * [Debugging Tools](docs/performance/debug_tools)
+        * [Java Flight Recorder](docs/performance/debug_tools/java_flight_recorder.md)
+        * [jStack](docs/performance/debug_tools/jstack.md)
+        * [jVaidhiyar](docs/performance/debug_tools/jvaidhiyar.md)
+        * [VisualVM](docs/performance/debug_tools/visualvm.md)
 
 <!-- USAGE -->
 ## Usage
