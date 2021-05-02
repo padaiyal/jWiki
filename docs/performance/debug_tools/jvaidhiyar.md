@@ -38,3 +38,28 @@ threadName: Monitor Ctrl-Break, threadId: 12, state: RUNNABLE, cpu: -1.0, alloca
 threadName: Notification Thread, threadId: 13, state: RUNNABLE, cpu: -1.0, allocatedMemoryBytes: 0
 threadName: pool-1-thread-1, threadId: 15, state: RUNNABLE, cpu: -1.0, allocatedMemoryBytes: 66984
 ```
+
+## Garbage collection information
+
+### Code
+```
+String commonFormat = "name: %s, collectionCount: %d, collectionMilliseconds:%d\n";
+
+GarbageCollectionInfo[] gcInfos = JvmUtility.getGarbageCollectionInfo();
+StringBuilder results = new StringBuilder();
+for (GarbageCollectionInfo gcInfo : gcInfos) {
+    String gcPrint = String.format(commonFormat,
+        gcInfo.getName(),
+        gcInfo.getCollectionCount(),
+        gcInfo.getCollectionTime().toMillis()
+    );
+    results.append(gcPrint);
+}
+System.out.print(results.toString());
+
+```
+### Sample output
+```
+name: G1 Old Generation, collectionCount: 0, collectionMilliseconds:0
+name: G1 Young Generation, collectionCount: 5, collectionMilliseconds:17
+```
