@@ -6,7 +6,7 @@
 
   <groupId>org.padaiyal</groupId>
   <artifactId>wiki</artifactId>
-  <version>2021.04.27</version>
+  <version>2021.05.02</version>
 
   <parent>
     <groupId>org.padaiyal</groupId>
