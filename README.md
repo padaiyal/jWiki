@@ -49,9 +49,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 The wiki contains the following Java related information:
+* [Tutorial](src/main/java)
+    * [Hello world](src/main/java/Sample.java)
+    * [Variables](src/main/java/Variables.java)
+    * [Methods](src/main/java/Methods.java)
 * [JVM](docs/jvm)
-    * [Memory](docs/jvm/memory.md)
-    * [Garbage Collection](docs/jvm/garbage_collection.md)
+  * [Memory](docs/jvm/memory.md)
+  * [Garbage Collection](docs/jvm/garbage_collection.md)
 
 <!-- USAGE -->
 ## Usage
